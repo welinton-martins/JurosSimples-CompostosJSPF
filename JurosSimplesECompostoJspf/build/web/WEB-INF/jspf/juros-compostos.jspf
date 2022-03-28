@@ -1,0 +1,14 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<h2>Juros Compostos</h2>
+<form action="juros-compostos.jsp" >
+    <div class="mb-3">
+        <label for="v" class="form-label">Valor</label>
+        <input name="v" type="number" class="form-control" placeholder="valor" value="100">
+        <label for="j" class="form-label">Juros</label>
+        <input name="j" type="number" class="form-control" placeholder="juros %" value="10">
+        <label for="p" class="form-label">Periodo em Meses</label>
+        <input name="p" type="number" class="form-control" placeholder="periodo em meses" value="2">
+    </div>
+    <input type="submit" class="btn btn-primary" value="Submit">
+</form>
